@@ -16,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/StringArray.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/StudentMarksTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="90" column="37" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="37" />
+            <state relative-caret-position="195">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,19 +28,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/ExceptionGeneration.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/ArrayOfPlaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/ExceptionGenerationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="231">
+              <caret line="27" column="84" lean-forward="true" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,22 +40,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/ArrayFunction.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/ArrayFunctionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <element signature="e#0#2315#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/ArrayFunctionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/NumberSeriesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="251">
+              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -253,6 +244,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/PracticeExercise1/DataMungerStep2_Boilerplate" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -375,15 +367,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringArrayTest_DuplicateTest1 - 2019.05.16 at 00h 26m 23s.xml">
-      <configuration name="StringArrayTest.DuplicateTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringArrayTest_DuplicateTest1 - 2019.05.16 at 00h 26m 59s.xml">
-      <configuration name="StringArrayTest.DuplicateTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringArrayTest_DuplicateTest1 - 2019.05.16 at 08h 42m 31s.xml">
-      <configuration name="StringArrayTest.DuplicateTest1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringArrayTest_DuplicateTest - 2019.05.16 at 08h 42m 40s.xml">
       <configuration name="StringArrayTest.DuplicateTest" configurationId="JUnit" />
     </history-entry>
@@ -404,6 +387,15 @@
     </history-entry>
     <history-entry file="StringArrayTest_ElementsTestFailure - 2019.05.16 at 09h 43m 07s.xml">
       <configuration name="StringArrayTest.ElementsTestFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayFunctionTest_evenOddTestFailure - 2019.05.16 at 09h 50m 47s.xml">
+      <configuration name="ArrayFunctionTest.evenOddTestFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayFunctionTest_removePrimeTestFailure - 2019.05.16 at 09h 51m 25s.xml">
+      <configuration name="ArrayFunctionTest.removePrimeTestFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayFunctionTest_reverseArrayTestFailure - 2019.05.16 at 09h 51m 51s.xml">
+      <configuration name="ArrayFunctionTest.reverseArrayTestFailure" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -503,91 +495,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/StudenMarks.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/StudentMarksTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/StudentMarks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/ConsecutiveNumTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/ConsecutiveNum.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/ArrayOfPlace.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/LoopTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/NumberSeriesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/Loop.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/demo.java" />
     <entry file="file://$USER_HOME$/Downloads/junit-4.12/org/junit/internal/ComparisonCriteria.class">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/ArrayOfPlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/NumberSeries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/ArrayOfPlaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/StringArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/StringArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="90" column="37" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/ExceptionGeneration.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -608,18 +523,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/ArrayFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/StringArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="90" column="37" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="37" />
           <folding>
-            <element signature="e#0#2315#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/StringArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="70" column="64" lean-forward="true" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/ArrayOfPlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/NumberSeries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="80" selection-start-column="3" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/StudentMarks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#1023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/StudentMarksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/ArrayOfPlaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="27" column="84" lean-forward="true" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/ArrayFunctionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="221">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe3/NumberSeriesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
