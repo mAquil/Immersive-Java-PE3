@@ -22,7 +22,7 @@ public class ArrayFunction
     public String[] evenOdd(int a[])
     {
         String[] result = new String[a.length];
-        for (int i = 0; i < a.length; i++)
+        for (int i = 0; i < a.length; i++)  //finding no. is even or odd
         {
             if (a[i] % 2 == 0)
             {
@@ -36,7 +36,7 @@ public class ArrayFunction
         return result;
     }
 
-    public int [] removePrime(int arr[])
+    public int [] removePrime(int arr[])  //getting all prime numbers
     {
         int i = 0;
         int j = 0;
@@ -72,7 +72,7 @@ public class ArrayFunction
         }
         return result;
     }
-    public static boolean isPrime(int n)
+    public static boolean isPrime(int n) //finding which no. is prime
     {
         int f = 0;
         for(int i = 1; i <= n; i++)
@@ -83,7 +83,7 @@ public class ArrayFunction
         return false;
     }
 
-    public int[] reverseArray(int a[])
+    public int[] reverseArray(int a[]) //reverse the elements of array
 
     {
         int b[]=new int[a.length];

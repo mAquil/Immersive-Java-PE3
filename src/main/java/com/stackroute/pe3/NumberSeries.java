@@ -23,7 +23,7 @@ public class NumberSeries
                 count1++;
             }
         }
-        if (series[count1] == series[series.length-1])
+        if (series[count1] == series[series.length-1])   //finding whether number is consecutive or not
             result = "consecutive";
         else
             result = "non consecutive";

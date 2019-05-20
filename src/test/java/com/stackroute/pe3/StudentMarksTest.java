@@ -1,10 +1,22 @@
 package com.stackroute.pe3;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class StudentMarksTest {
-    StudentMarks sc=new StudentMarks();
+    StudentMarks sc;
+
+    @Before
+    public void setUp(){
+        sc=new StudentMarks();
+    }
+
+    @After
+    public void tearDown(){
+        sc=null;
+    }
 
     @Test
     public void StudentsTest(){

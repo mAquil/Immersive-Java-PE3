@@ -1,15 +1,27 @@
 package com.stackroute.pe3;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class StringArrayTest {
 
-    StringArray obj = new StringArray();
+    StringArray obj;
+
+    @Before
+    public void setUp(){
+        obj=new StringArray();
+    }
+
+    @After
+    public void tearDown(){
+        obj=null;
+    }
 
     @Test
-    public void ElementsTest(){
+    public void ElementsTest(){     //compare array elements are equal or not
 
         String array1[]= {"We","are","here","at","Stackroute"};
         String array2[]= {"We","are","here","at","Stackroute"};
@@ -28,7 +40,7 @@ public class StringArrayTest {
     }
 
     @Test
-    public void DuplicateTest(){
+    public void DuplicateTest(){   //look for duplicate elements
         String array1[]= {"This","is","the", "starting","of","training"};
         String expected1[]= {"This","is","the", "starting","of","training"};
         String actual1[]=obj.Duplicate(array1);
@@ -46,7 +58,7 @@ public class StringArrayTest {
 
 
     @Test
-    public void AppendFirstElementTest(){
+    public void AppendFirstElementTest(){  //appending first element of array1 to array2
         String array1[]= {"Marshal","is", "here","again"};
         String array2[]= {"My","name", "is","John"};
         String expected[]= {"My","name", "is","John","Marshal"};
@@ -65,7 +77,7 @@ public class StringArrayTest {
 
 
     @Test
-    public void PrependMidElementTest() {
+    public void PrependMidElementTest() {    //prepend first element of array2 to array1
         String[] array1 = {"a", "b", "c", "d", "e"};
         String[] array2 = {"f", "g", "h", "i", "j"};
         String[] actual = obj.PrependMidElement(array1, array2);

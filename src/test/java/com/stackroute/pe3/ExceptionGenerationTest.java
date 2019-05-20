@@ -1,14 +1,26 @@
 
 package com.stackroute.pe3;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class ExceptionGenerationTest {
-    ExceptionGeneration obj=new ExceptionGeneration();
+    ExceptionGeneration obj;
+
+    @Before
+    public void setUp(){
+        obj=new ExceptionGeneration();
+    }
+
+    @After
+    public void tearDown(){
+        obj=null;
+    }
 
     @Test
-    public void NegArrayTest(){
+    public void NegArrayTest(){      //test for negative array size exception
         int arr[]={2,4,1,8,3,9,10};
         String expected="NegativeArraySizeException";
         String result=obj.NegArray(arr);
@@ -18,7 +30,7 @@ public class ExceptionGenerationTest {
 
 
     @Test
-    public void IndexOutTest(){
+    public void IndexOutTest(){   //tets for index out of bounds exception
 
         int arr[]={2,4,1,8,3,9};
         String expected="IndexOutOfBoundsException";
@@ -27,7 +39,7 @@ public class ExceptionGenerationTest {
     }
 
    @Test
-    public void NullPointTest() {
+    public void NullPointTest() {    //test for null pointer exception
 
        String s = null;
 

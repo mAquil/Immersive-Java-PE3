@@ -23,7 +23,7 @@ import java.util.Arrays;
 
 public class StringArray {
 
-    public String Elements(String array1[],String array2[])
+    public String Elements(String array1[],String array2[])  //compare th elements in both arrays are equal or not
     {
         String  result="";
         boolean flag=true;

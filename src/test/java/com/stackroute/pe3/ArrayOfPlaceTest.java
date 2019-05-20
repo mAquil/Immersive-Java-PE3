@@ -27,7 +27,7 @@ public class ArrayOfPlaceTest {
     {
         String [] s1={"India", "United States", "Germany","Egypt","Czechoslovakia"};
         String[] result = pl.place(s1);
-        String[] expected ={"Ind", "Untd Stts", "Grmny","Egypt","Czchslvk"};
+        String[] expected ={"Ind", "Untd Stts", "Grmny","Egypt","Czchslvk"};  //expected result
         assertArrayEquals(expected, result);
 
     }

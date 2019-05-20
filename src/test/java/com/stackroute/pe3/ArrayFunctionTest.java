@@ -10,18 +10,18 @@ public class ArrayFunctionTest
 
     @Before
     public void setup() {
-        //arrenge
+
         af = new ArrayFunction();
     }
 
     @After
     public void tearDown() {
-        //arrenge
+
         af = null;
     }
 
     @Test
-    public void evenOddTest() throws Exception {
+    public void evenOddTest() throws Exception {  //test for even odd number
         int[] arr = {4, 3, 7, 8};
         String[] result = af.evenOdd(arr);
         String[] expected = {"even", "odd", "odd", "even"};
@@ -29,7 +29,7 @@ public class ArrayFunctionTest
     }
 
     @Test
-    public void evenOddTestFailure() throws Exception
+    public void evenOddTestFailure() throws Exception //tets for failure
     {
         int[] arr = {4, 3, 7, 8};
         String[] result = af.evenOdd(arr);
@@ -37,8 +37,7 @@ public class ArrayFunctionTest
     }
 
     @Test
-    public void removePrimeTest() throws Exception
-    {
+    public void removePrimeTest() throws Exception{    //test to remove prime no.
         int[] arr = {3, 12, 7, 1};
         int[] result = af.removePrime(arr);
         int[] expected = {12, 1};
@@ -55,8 +54,7 @@ public class ArrayFunctionTest
     }
 
     @Test
-    public void reverseArrayTest() throws Exception
-    {
+    public void reverseArrayTest() throws Exception {   //test to reverse the array
 
         int[] arr = {4, 3, 7, 8};
         int [] result = af.reverseArray(arr);
